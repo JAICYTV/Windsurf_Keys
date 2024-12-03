@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WindsurfApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_community">Community</string>
+    <string name="title_services">Services</string>
+    <string name="title_events">Events</string>
+    <string name="title_club">Club</string>
+    
+    <!-- Service Details -->
+    <string name="service_image_description">Service image</string>
+    <string name="book_service">Book Now</string>
+    <string name="price_format">$%.2f</string>
+    <string name="error_loading_service">Failed to load service details</string>
+    
+    <!-- Services -->
+    <string name="services">Services</string>
+    <string name="service_detail">Service Detail</string>
+    <string name="loading">Loading…</string>
+    <string name="error_loading_services">Failed to load services</string>
+    <string name="retry">Retry</string>
+    
+    <!-- Categories -->
+    <string name="category_rental">Rental</string>
+    <string name="category_lessons">Lessons</string>
+    <string name="category_maintenance">Maintenance</string>
+    <string name="category_storage">Storage</string>
+    
+    <!-- Navigation Strings -->
+    <string name="home">Home</string>
+    <string name="community">Community</string>
+    <string name="events">Events</string>
+    <string name="club">Club</string>
+</resources>

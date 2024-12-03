@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WindsurfApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/accent_blue</item>
+        <item name="colorPrimaryVariant">@color/blue_dark</item>
+        <item name="colorOnPrimary">@color/primary_white</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/secondary_yellow</item>
+        <item name="colorSecondaryVariant">@color/yellow_dark</item>
+        <item name="colorOnSecondary">@color/text_black</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/accent_blue</item>
+
+        <!-- Background colors -->
+        <item name="android:windowBackground">@color/background_white</item>
+        <item name="colorSurface">@color/surface_white</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- Custom styles -->
+        <item name="materialButtonStyle">@style/Widget.WindsurfApp.Button</item>
+        <item name="bottomNavigationStyle">@style/Widget.WindsurfApp.BottomNavigation</item>
+    </style>
+
+    <!-- Custom Button Style -->
+    <style name="Widget.WindsurfApp.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/accent_blue</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Custom Bottom Navigation Style -->
+    <style name="Widget.WindsurfApp.BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/primary_white</item>
+        <item name="itemIconTint">@color/accent_blue</item>
+        <item name="itemTextColor">@color/accent_blue</item>
+    </style>
+
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.windsurf.app.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_community"
+        android:name="com.windsurf.app.CommunityFragment"
+        android:label="@string/community"
+        tools:layout="@layout/fragment_community" />
+
+    <fragment
+        android:id="@+id/navigation_services"
+        android:name="com.windsurf.app.ServicesFragment"
+        android:label="@string/services"
+        tools:layout="@layout/fragment_services">
+        <action
+            android:id="@+id/actionServicesFragmentToServiceDetailFragment"
+            app:destination="@id/serviceDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_events"
+        android:name="com.windsurf.app.EventsFragment"
+        android:label="@string/events"
+        tools:layout="@layout/fragment_events" />
+
+    <fragment
+        android:id="@+id/navigation_club"
+        android:name="com.windsurf.app.ClubFragment"
+        android:label="@string/club"
+        tools:layout="@layout/fragment_club" />
+
+    <fragment
+        android:id="@+id/serviceDetailFragment"
+        android:name="com.windsurf.app.ServicesDetailFragment"
+        android:label="@string/service_detail"
+        tools:layout="@layout/fragment_service_detail">
+        <argument
+            android:name="serviceId"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

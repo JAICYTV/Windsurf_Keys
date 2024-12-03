@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_white">#FFFFFF</color>
+    <color name="secondary_yellow">#FFD700</color>
+    <color name="accent_blue">#1E88E5</color>
+    <color name="text_black">#212121</color>
+
+    <!-- Variants -->
+    <color name="yellow_light">#FFE54C</color>
+    <color name="yellow_dark">#C8A600</color>
+    <color name="blue_light">#6AB7FF</color>
+    <color name="blue_dark">#005CB2</color>
+    
+    <!-- Background Colors -->
+    <color name="background_white">#FFFFFF</color>
+    <color name="surface_white">#F5F5F5</color>
+    <color name="background_light">#F5F5F5</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_white">#FFFFFF</color>
+</resources>
